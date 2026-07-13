@@ -1,0 +1,16 @@
+# ── requirements.txt ──────────────────────────────────────────────
+# Optimized for Google Colab
+# Usage: !pip install -r requirements.txt
+
+# TensorFlow (Colab usually has this pre-installed, pinned for safety)
+tensorflow>=2.10.0
+
+# Data handling
+numpy>=1.23.0
+pandas>=1.5.0
+
+# Kaggle dataset download (needed for Option A in the notebook)
+kaggle>=1.5.16
+
+# Plotting (bonus experiments — train vs val loss curves)
+matplotlib>=3.6.0
